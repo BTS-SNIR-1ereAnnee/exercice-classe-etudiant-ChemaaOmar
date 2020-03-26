@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <iostream>
+#include "Etudiant.h"
 
 using namespace std;
 
@@ -7,13 +7,13 @@ int main()
 {
 	int note1;
 	int note2;
-	string prenom;
+	string nom;
 	
 
-	cout << "entrer prenom:" << entrer prenom << endl;
-	cin >> prenom;
-	cout << "entrer note 1:" << entrer note 1 << endl;
-	cin >> note 1;
-	cout << "entree note 2:"<<entrer note 2 << endl;
-	cin >> note 2;
+	cout << "entrer nom:" << nom << endl;
+	cin >> nom;
+	cout << "entrer note1:" <<  note1 << endl;
+	cin >> note1;
+	cout << "entree note2:" << note2 << endl;
+	cin >> note2;
 }
