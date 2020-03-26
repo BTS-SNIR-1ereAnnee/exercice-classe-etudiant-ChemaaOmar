@@ -4,16 +4,22 @@
 using namespace std;
 
 class etudiant{
-private:
-
-etudiant(char prenom, float note 1 , float note 2);
-
-
 public:
-	
-void afficher();
 
-void calculerMoyenne();
+etudiant(char prenom, float note1 , float note2);
+
+void getnom();
+void getnote1();
+void getnote2();
+
+void setnom();
+void setrnote1();
+void setnote2();
+
+
+
+	
+
 
 
 };
